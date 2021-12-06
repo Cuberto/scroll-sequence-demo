@@ -1,0 +1,30 @@
+extends /_includes/layout
+
+block title
+    title Cuberto Sequence Scroll | Demo
+
+block content
+
+    .cb-layout#view-main
+        .cb-content
+
+            header.cb-demo
+                .cb-demo-content
+                    .cb-demo-container
+                        .cb-demo-header
+                            h1 Cuberto Sequence#[br] Scroll Effect
+                            //h2 With GSAP ScrollTrigger & SmoothScroll
+
+            section.cb-sequence
+                .cb-sequence-stage
+                    canvas
+
+            section.cb-outro
+                .cb-outro-content
+                    .cb-outro-container
+                        .cb-outro-header
+                            h2 Credits
+                        .cb-outro-list
+                            .cb-outro-list-item: a(href="//cuberto.com/", target="_blank") Cuberto
+                            .cb-outro-list-item: a(href="//greensock.com/gsap/", target="_blank") GreenSock GSAP
+                            .cb-outro-list-item: a(href="//github.com/idiotWu/smooth-scrollbar", target="_blank") Smooth Scrollbar
