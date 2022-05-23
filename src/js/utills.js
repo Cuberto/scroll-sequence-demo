@@ -21,6 +21,7 @@ export const preloadImage = (src) => {
  * Batch load images via XHR as blob
  */
 export const preloadImages = (urls) => {
+
     return Promise.all(urls.map((src) => preloadImage(src)));
 };
 
